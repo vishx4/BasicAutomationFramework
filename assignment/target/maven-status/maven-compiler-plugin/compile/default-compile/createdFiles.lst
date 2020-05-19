@@ -1,0 +1,5 @@
+config/BrowserSetup.class
+Locators/OrderSummaryPage.class
+Locators/LandingPage.class
+Locators/ShoppingCartPage.class
+Locators/PaymentDetailsPage.class

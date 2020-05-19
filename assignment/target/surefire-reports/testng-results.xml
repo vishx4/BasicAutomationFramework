@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="dkatalis.assignment.HomePageTest" duration-ms="26254" started-at="2020-05-18T17:13:42Z" finished-at="2020-05-18T17:14:08Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="26254" started-at="2020-05-18T17:13:42Z" finished-at="2020-05-18T17:14:08Z">
+      <class name="dkatalis.assignment.HomePageTest">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:dkatalis.assignment.HomePageTest@41fbdac4]" name="basePageNavigation" duration-ms="26210" started-at="2020-05-18T17:13:42Z" finished-at="2020-05-18T17:14:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- dkatalis.assignment.HomePageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- dkatalis.assignment.HomePageTest -->
+</testng-results>
