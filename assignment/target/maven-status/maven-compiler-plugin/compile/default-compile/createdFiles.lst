@@ -1,5 +1,6 @@
-config/BrowserSetup.class
 Locators/OrderSummaryPage.class
+configuration/ExtentReporterNG.class
 Locators/LandingPage.class
 Locators/ShoppingCartPage.class
+configuration/base.class
 Locators/PaymentDetailsPage.class

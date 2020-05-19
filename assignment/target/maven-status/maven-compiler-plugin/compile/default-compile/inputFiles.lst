@@ -1,5 +1,6 @@
 /Users/apple/Documents/workspace/assignment/src/main/java/Locators/LandingPage.java
 /Users/apple/Documents/workspace/assignment/src/main/java/Locators/ShoppingCartPage.java
-/Users/apple/Documents/workspace/assignment/src/main/java/config/BrowserSetup.java
 /Users/apple/Documents/workspace/assignment/src/main/java/Locators/PaymentDetailsPage.java
+/Users/apple/Documents/workspace/assignment/src/main/java/configuration/base.java
+/Users/apple/Documents/workspace/assignment/src/main/java/configuration/ExtentReporterNG.java
 /Users/apple/Documents/workspace/assignment/src/main/java/Locators/OrderSummaryPage.java

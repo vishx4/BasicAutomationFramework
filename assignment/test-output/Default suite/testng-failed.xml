@@ -3,7 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="dkatalis.assignment.HomePageTest"/>
+      <class name="Scenario.FailedCreditCardPaymentTest"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Scenario.FailedCreditCardPaymentTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="endTest"/>
+          <include name="failedPaymentFlow"/>
+        </methods>
+      </class> <!-- Scenario.FailedCreditCardPaymentTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

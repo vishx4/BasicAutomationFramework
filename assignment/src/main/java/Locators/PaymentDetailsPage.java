@@ -22,6 +22,7 @@ public class PaymentDetailsPage {
 	@FindBy(xpath="//input[@name='cardnumber']")
 	WebElement cardNumber;
 	
+	
 	@FindBy(xpath="//input[@placeholder='MM / YY']")
 	WebElement cardExpiryDate;
 	
@@ -44,6 +45,9 @@ public class PaymentDetailsPage {
 	
 	@FindBy(xpath="//button[@type='submit']")
 	WebElement submitButton;
+	
+	@FindBy(xpath="//div[@class='text-failed']//*[text()='Your card got declined by the bank']")
+	WebElement failedPayment;
 	
 	
 	
@@ -96,6 +100,11 @@ public class PaymentDetailsPage {
 	public WebElement submitButton() {
     	
     	return submitButton;
+    }
+	
+	public WebElement failedPayment() {
+    	
+    	return failedPayment;
     }
 	
 }	
