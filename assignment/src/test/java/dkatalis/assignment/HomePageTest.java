@@ -1,5 +1,6 @@
 package dkatalis.assignment;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
@@ -25,12 +26,14 @@ import Locators.ShoppingCartPage;
 import config.BrowserSetup;
 
 
-
+@Listeners(config.ListenerTest.class)
 public class HomePageTest extends BrowserSetup{
 
 	private static Logger log =LogManager.getLogger(BrowserSetup.class.getName());
+	
 	@Test
 	public void basePageNavigation() throws IOException, InterruptedException {
+		
 		
 		driver = intializeDriver();
 		log.info("driver is initialize");

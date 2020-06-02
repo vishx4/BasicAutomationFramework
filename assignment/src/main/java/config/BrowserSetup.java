@@ -17,13 +17,13 @@ public class BrowserSetup {
 	public WebDriver intializeDriver() throws IOException {
 		
 	    prop = new Properties();
-		FileInputStream fis = new FileInputStream("//Users//apple//Documents//workspace//assignment//src//main//java//config//testData.properties");
+		FileInputStream fis = new FileInputStream("C:\\Users\\VISHAL\\git\\BasicAutomationFramework\\assignment\\src\\main\\java\\config\\testData.properties");
 		prop.load(fis);
 		String browserName = prop.getProperty("browser");
 		
 		//chromeBrowser 
 		if(browserName.equals("chrome")){
-			System.setProperty("webdriver.chrome.driver", "//Users//apple//Downloads//chromedriver");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\VISHAL\\Desktop\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 		//firefoxBrowser

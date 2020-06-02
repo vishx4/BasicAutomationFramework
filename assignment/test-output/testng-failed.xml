@@ -6,4 +6,13 @@
       <class name="dkatalis.assignment.HomePageTest"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="dkatalis.assignment.HomePageTest">
+        <methods>
+          <include name="basePageNavigation"/>
+        </methods>
+      </class> <!-- dkatalis.assignment.HomePageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
