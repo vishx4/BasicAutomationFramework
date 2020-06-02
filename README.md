@@ -1,18 +1,4 @@
-# ProblemStatement
-Problem Statement 1
-Please investigate https://demo.midtrans.com/ website and write UI automation framework covering
-the below scenarios:
-Must have
-1. Create an automation test script to test end to end checkout flow for purchasing “Pillow” using
-Credit Card as payment method. This should be a SUCCESSFUL payment flow.
-2. Create the second script to test end to end checkout flow for purchasing “Pillow” using Credit
-Card as payment method. This should be FAILED payment flow.
-3. Implement a reporting framework of your choice to display the test results
-4. The above tests should be cross-browser compatible on Chrome and Firefox
-Test data:
-Payment Type Card Number Expiry Date CVV Number Bank’s OTP
-Success Credit Card Payment 4811 1111 1111 1114 05/20 123 112233
-Failed Credit Card Payment 4911 1111 1111 1113 05/20 123 112233
+
 
 
 Automation For Problem Statement1 :
